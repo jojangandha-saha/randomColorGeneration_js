@@ -1,0 +1,43 @@
+.container{
+    /* background-color: white; */
+    text-align: center;
+    border-radius: 5px;
+     
+    /* display: felx;
+    justify-content: center;
+    align-items:last center; */
+    display: grid;
+    place-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 15rem ;
+}   
+
+.card{
+    width: 300px;
+    overflow: hidden;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: white;
+    border-radius: 8px;
+}
+
+#btn{
+    padding: 10px 20px;
+    margin: 0;
+    border-radius: 2px;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(227, 232, 233);
+
+}
+
+span{
+    display: inline;
+  background-image: linear-gradient(180deg, #ffec5e 0%, #ffec5e 100%);
+  background-size: 100% 100%; /* Ensure the gradient covers the text */
+  background-repeat: no-repeat;
+  padding: 2px; 
+  border-radius: 5px;
+}
